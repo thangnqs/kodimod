@@ -98,6 +98,8 @@
         </player>
     </players>
     <rules action="prepend">
+        <!-- Change program name. Ex: MXPlayerPro -->
+        <!-- document:  https://kodi.wiki/view/External_players -->
         <rule protocols="smb" player="MXPlayerPro" />
         <rule dvdimage="true" player="MXPlayerPro" />
         <rule protocols="rtmp" player="MXPlayerPro" />
